@@ -1,0 +1,22 @@
+{
+  "name": "@rrpp/shared",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Tipos, enums y esquemas compartidos entre la API, la web y la extensión.",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.3",
+    "vitest": "^5.0.3"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    // Código isomórfico (API, web y extensión): APIs web estándar como URL, sin tipos de Node
+    "lib": ["ES2023", "DOM"],
+    "types": []
+  },
+  "include": ["src", "test"]
+}

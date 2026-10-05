@@ -1,0 +1,14 @@
+node_modules/
+dist/
+coverage/
+package-lock.json
+
+# Generado por la CLI de Supabase
+packages/shared/src/database.types.ts
+
+# SQL y config de Supabase, y el scraper en Python: tienen sus propias herramientas
+supabase/
+workers/
+
+# Documento de diseño con tablas anchas, editado a mano
+docs/ARCHITECTURE.md

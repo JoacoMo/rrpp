@@ -1,0 +1,27 @@
+# Dependencias y builds
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Variables de entorno (solo se versionan los ejemplos)
+.env
+.env.*
+!.env.example
+
+# Python (scraper)
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Perfil persistente de Chrome del scraper
+.chrome-profile/
+
+# Supabase CLI
+supabase/.branches/
+supabase/.temp/
+
+# Sistema y logs
+.DS_Store
+*.log
