@@ -131,7 +131,7 @@ rrpp/
 │       └── test/            # unit/ e integration/
 ├── packages/
 │   └── shared/              # enums, normalización de @usuarios y tipos de la base
-├── supabase/                # migraciones, seed y config de la CLI
+├── supabase/                # migraciones y config de la CLI
 ├── docs/ARCHITECTURE.md
 └── .github/workflows/ci.yml
 ```
