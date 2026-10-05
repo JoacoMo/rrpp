@@ -323,7 +323,6 @@ declare
   v_media text[];
   v_prospect_id uuid;
   v_snapshot_id uuid;
-  v_try integer;
 begin
   select * into v_item from public.scrape_job_items i where i.id = p_item_id for update;
   if not found then
